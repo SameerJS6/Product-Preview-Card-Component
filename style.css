@@ -104,7 +104,17 @@ body {
   place-content: center;
   font-weight: var(--fw-500);
   font-family: var(--ff-body);
+  animation: opacity 3s ease;
   background-color: var(--clr-primary-400);
+}
+/* Body Animation  */
+@keyframes opacity {
+  from {
+    background-color: transparent;
+  }
+  to {
+    background-color: var(--clr-primary-400);
+  }
 }
 /* Container  */
 .container {
